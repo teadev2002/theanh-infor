@@ -1,0 +1,126 @@
+
+#ava{
+    margin-top: 2vh;
+    width: 8%;
+    border-radius: 50%;
+    transition: all 0.5s;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+body{
+    overflow: hidden;
+}
+#p1{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 1000;
+    transition: 0.5s;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#p1:hover{
+    font-size: 30px;
+
+ 
+}
+#p2{
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+.bt{
+    margin-bottom: 20px;
+    background-color: rgb(130, 212, 179);
+    border-radius: 100px;
+    font-size: 16px;
+
+    border: 0px;
+    width: 35%;
+    padding: 15px 0px 15px 0px;
+    font-style: italic;
+    
+    transition:  0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.bt:hover{
+  width: 45%;
+  background: rgb(230, 34, 34);
+  /* transition:  ease 0.5s;  */
+}
+#fb{
+    width: 7%;
+ 
+}
+#ins{
+    width: 7%;
+ 
+    border-radius: 6%;
+}
+ 
+#tick{
+    width: 2%;
+    
+}
+.item{
+     display: flex;
+     justify-content: center;
+     
+}
+.item input, .btn-copy{
+    margin-top: 15vh;
+}
+/* .btn-copy{
+    
+    top: .65rem;
+    right: 0.65rem;
+    z-index: 10;
+    display: block;
+    padding: 0.25rem 0.5rem;
+    font-size: .65em;
+    color: #0d6efd;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    cursor: pointer;
+} */
+
+.qr img{
+    margin-top: 10px;
+    width: 20%;
+}
+#overlay2{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+    background: rgba(129, 176, 227, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+#overlay3{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+    background: rgba(236, 34, 129, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+#overlay4{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(108, 3, 52, 0.5);
+    align-items: center;
+    justify-content: center;
+}
